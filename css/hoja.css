@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+h1{text-align:center;
+}
+
+.subtitulo{
+	font-size:12px;
+}
+
+body{
+	background-color:#e3d3c6;
+}
+
+table td{
+	text-align:center;
+	border:1px #990000 dotted;
+	
+}
+
+table .sin{
+	border:0;
+}
+
+table .bot{
+	padding:0 5px;
+	display:inline;
+	border:0;
+}
+
+table .primera_fila{
+	font-size:1.5em;
+	text-decoration:underline;
+	background-color:#2E86C1;
+}
+
+.centrado{
+	text-align:center;
+}
+
+.bot{
+	color: red;
+}
+
+.nav-link{
+	color: #910272
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  background-color: #BDBDBD;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .carousel {
+  margin-bottom: 8rem;
+}
+/* Ya que posicionamos la imagen, necesitamos ayudar con el pie de foto */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declarar alturas debido al posicionamiento del elemento img */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+  .carousel-control-prev:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
